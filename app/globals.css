@@ -3,21 +3,62 @@
 @tailwind utilities;
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-  
+
   .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
-  
+
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
+  }
+
+  /* Smooth transitions */
+  .transition-smooth {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  /* Button animations */
+  .btn-tap {
+    @apply active:scale-95 transition-transform duration-150;
+  }
+
+  /* Elevation shadows (Apple style) */
+  .shadow-elevation-1 {
+    @apply shadow-sm;
+  }
+
+  .shadow-elevation-2 {
+    @apply shadow-md;
+  }
+
+  .shadow-elevation-3 {
+    @apply shadow-lg;
+  }
+
+  /* Smooth focus rings */
+  .focus-ring {
+    @apply focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary;
+  }
+
+  /* Backdrop blur utility */
+  .backdrop-blur-sm {
+    backdrop-filter: blur(4px);
   }
 }
 
@@ -57,6 +98,7 @@ body {
     --sidebar-border: 12 8% 20%;
     --sidebar-ring: 141 76% 36%;
   }
+
   .dark {
     --background: 12 7% 8%;
     --foreground: 0 0% 95%;
@@ -97,6 +139,7 @@ body {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
