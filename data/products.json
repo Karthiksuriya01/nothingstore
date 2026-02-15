@@ -41,7 +41,7 @@
       "rating": 4.2,
       "reviews": 128,
       "stock": 32,
-      "image": "https://images.unsplash.com/photo-1605075015062-0f2a86f49b35?w=500&h=500&fit=crop",
+      "image": "/Engine Oil/5w_40_liquimoly/5w40img.png",
       "description": "Fully synthetic engine oil 5W-40. Premium quality motor oil designed to provide excellent protection for modern vehicles. Features advanced performance additives for extended drain intervals.",
       "specs": [
         "Fully Synthetic Formula",
@@ -62,7 +62,7 @@
       "rating": 4.5,
       "reviews": 156,
       "stock": 48,
-      "image": "https://images.unsplash.com/photo-1605075015062-0f2a86f49b35?w=500&h=500&fit=crop",
+      "image": "/Engine Oil/5w_30_LIqui_moly/5w30img.png",
       "description": "Fully synthetic engine oil 5W-30. Perfect for all-season performance with superior protection against wear and oxidation. Meets international quality standards.",
       "specs": [
         "Fully Synthetic Formula",
@@ -83,7 +83,7 @@
       "rating": 4.3,
       "reviews": 89,
       "stock": 64,
-      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop",
+      "image": "/Additives/dieseil_additive_img.png",
       "description": "Diesel additive for improved performance (250ml). Enhances fuel efficiency and reduces emissions while cleaning fuel injectors.",
       "specs": [
         "Diesel Specific Formula",
@@ -104,7 +104,7 @@
       "rating": 4.4,
       "reviews": 102,
       "stock": 40,
-      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop",
+      "image": "/Additives/dpf_Cleaner.png",
       "description": "Diesel particle filter cleaner (250ml). Effective cleaning solution for diesel engines with particulate filters. Prevents DPF regeneration issues.",
       "specs": [
         "DPF Safe Formula",
@@ -125,7 +125,7 @@
       "rating": 4.2,
       "reviews": 76,
       "stock": 56,
-      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop",
+      "image": "/Additives/injector_cleaner.png",
       "description": "Injection system cleaner (300ml). Deep cleans fuel injectors and combustion chamber for optimal engine performance.",
       "specs": [
         "Injection System Cleaner",
@@ -146,7 +146,7 @@
       "rating": 4.1,
       "reviews": 64,
       "stock": 52,
-      "image": "https://images.unsplash.com/photo-1605075015062-0f2a86f49b35?w=500&h=500&fit=crop",
+      "image": "/Additives/engine_flush.png",
       "description": "Engine flush cleaner (300ml). Effective pre-drain flush to remove sludge and deposits for a cleaner engine.",
       "specs": [
         "Engine Flush Formula",
@@ -167,7 +167,7 @@
       "rating": 4.3,
       "reviews": 98,
       "stock": 36,
-      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop",
+      "image": "/Additives/diesiel_purge.png",
       "description": "Diesel system cleaner (500ml). Comprehensive diesel system cleaning solution for fuel tanks and injectors.",
       "specs": [
         "Diesel System Cleaner",
@@ -209,7 +209,7 @@
       "rating": 4.6,
       "reviews": 134,
       "stock": 44,
-      "image": "https://images.unsplash.com/photo-1605075015062-0f2a86f49b35?w=500&h=500&fit=crop",
+      "image": "/Additives/ceratec.png",
       "description": "High-performance ceramic wear protection (300ml). Advanced ceramic technology for superior engine protection and reduced friction.",
       "specs": [
         "Ceramic Technology",
@@ -230,7 +230,7 @@
       "rating": 4.4,
       "reviews": 87,
       "stock": 24,
-      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop",
+      "image": "/Additives/dpf_500ml.png",
       "description": "Diesel particle filter cleaner (500ml). Professional-grade DPF cleaning solution for heavy-duty engines.",
       "specs": [
         "DPF Cleaner",
@@ -251,7 +251,7 @@
       "rating": 4.5,
       "reviews": 110,
       "stock": 20,
-      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=500&fit=crop",
+      "image": "/Additives/dpf_1l.png",
       "description": "Diesel particle filter cleaner (1L). Large format DPF cleaner for commercial and industrial applications.",
       "specs": [
         "DPF Cleaner",
@@ -356,7 +356,7 @@
       "rating": 4.5,
       "reviews": 203,
       "stock": 76,
-      "image": "https://images.unsplash.com/photo-1599599810694-b5ac4dd46c4b?w=500&h=500&fit=crop",
+      "image": "/dry_fruits/kaju.png",
       "description": "Premium quality cashews sourced from the best orchards. Fresh, delicious, and packed with nutrients.",
       "specs": [
         "Premium Quality",
@@ -377,7 +377,7 @@
       "rating": 4.5,
       "reviews": 167,
       "stock": 88,
-      "image": "https://images.unsplash.com/photo-1585707572335-3e88a2fcac01?w=500&h=500&fit=crop",
+      "image": "/dry_fruits/gummadi.png",
       "description": "Roasted pumpkin seeds with a hint of salt. Healthy snack option rich in nutrients and antioxidants.",
       "specs": [
         "Roasted Seeds",
@@ -398,7 +398,7 @@
       "rating": 4.5,
       "reviews": 134,
       "stock": 52,
-      "image": "https://images.unsplash.com/photo-1585707572335-3e88a2fcac01?w=500&h=500&fit=crop",
+      "image": "/dry_fruits/wallnuts.png",
       "description": "Premium quality walnuts packed with omega-3 fatty acids. Perfect for healthy snacking and cooking.",
       "specs": [
         "Premium Quality",
@@ -419,7 +419,7 @@
       "rating": 4.5,
       "reviews": 89,
       "stock": 44,
-      "image": "https://images.unsplash.com/photo-1585707572335-3e88a2fcac01?w=500&h=500&fit=crop",
+      "image": "/dry_fruits/puchapappu.png",
       "description": "Traditional dried fruit snack. Delicious and nutritious treat from regional harvest.",
       "specs": [
         "Dried Fruit Snack",
@@ -440,7 +440,7 @@
       "rating": 4.5,
       "reviews": 176,
       "stock": 108,
-      "image": "https://images.unsplash.com/photo-1599599810694-b5ac4dd46c4b?w=500&h=500&fit=crop",
+      "image": "/dry_fruits/sunflowerseeds.png",
       "description": "Premium roasted sunflower seeds. Healthy snack packed with vitamins and minerals.",
       "specs": [
         "Roasted Seeds",
