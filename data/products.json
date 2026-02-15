@@ -1,0 +1,168 @@
+{
+  "categories": [
+    {
+      "id": "all",
+      "name": "All",
+      "icon": "grid"
+    },
+    {
+      "id": "electronics",
+      "name": "Electronics",
+      "icon": "zap"
+    },
+    {
+      "id": "fashion",
+      "name": "Fashion",
+      "icon": "shirt"
+    },
+    {
+      "id": "books",
+      "name": "Books",
+      "icon": "book"
+    },
+    {
+      "id": "home",
+      "name": "Home",
+      "icon": "home"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Smart Watch Series 5",
+      "category": "electronics",
+      "price": 299.99,
+      "originalPrice": 399.99,
+      "rating": 4.5,
+      "reviews": 128,
+      "stock": 32,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop",
+      "description": "Advanced smartwatch with heart rate monitoring, sleep tracking, and 7-day battery life. Water-resistant up to 50m with multiple sport modes.",
+      "specs": [
+        "AMOLED Display",
+        "Heart Rate Monitor",
+        "Sleep Tracking",
+        "7-Day Battery",
+        "Water Resistant 50m",
+        "Multiple Sport Modes"
+      ],
+      "instagramReels": [
+        "https://www.instagram.com/p/XXXXXXXXX/embed",
+        "https://www.instagram.com/p/YYYYYYYYY/embed"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Classic Denim Jacket",
+      "category": "fashion",
+      "price": 69.99,
+      "originalPrice": 99.99,
+      "rating": 4.2,
+      "reviews": 95,
+      "stock": 40,
+      "image": "https://images.unsplash.com/photo-1551028719-00167b16ebc5?w=500&h=500&fit=crop",
+      "description": "Timeless denim jacket with vintage wash and comfortable fit. A wardrobe essential that pairs perfectly with any outfit.",
+      "specs": [
+        "100% Cotton Denim",
+        "Vintage Wash",
+        "Classic Fit",
+        "Button Front",
+        "Two Front Pockets",
+        "Durable Construction"
+      ],
+      "instagramReels": [
+        "https://www.instagram.com/p/ZZZZZZZZZZ/embed"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Coffee Table Book Collection",
+      "category": "books",
+      "price": 39.99,
+      "originalPrice": 59.99,
+      "rating": 4.0,
+      "reviews": 1,
+      "stock": 64,
+      "image": "https://images.unsplash.com/photo-1507842872343-583f20270319?w=500&h=500&fit=crop",
+      "description": "Beautiful collection of coffee table books featuring art, photography, and design inspiration. Perfect for adding character to any space.",
+      "specs": [
+        "Hardcover Books",
+        "Premium Quality Paper",
+        "Professional Photography",
+        "Perfect Binding",
+        "Interior Design Focused",
+        "Great Gift Option"
+      ],
+      "instagramReels": []
+    },
+    {
+      "id": "4",
+      "name": "Wireless Bluetooth Headphones",
+      "category": "electronics",
+      "price": 149.99,
+      "originalPrice": 199.99,
+      "rating": 4.7,
+      "reviews": 256,
+      "stock": 28,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
+      "description": "Premium noise-cancelling headphones with 30-hour battery life and superior sound quality. Perfect for music lovers and commuters.",
+      "specs": [
+        "Active Noise Cancellation",
+        "30-Hour Battery",
+        "Bluetooth 5.0",
+        "Premium Sound",
+        "Comfortable Fit",
+        "Built-in Microphone"
+      ],
+      "instagramReels": [
+        "https://www.instagram.com/p/AAAAAAAA/embed",
+        "https://www.instagram.com/p/BBBBBBBB/embed",
+        "https://www.instagram.com/p/CCCCCCCC/embed"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Leather Crossbody Bag",
+      "category": "fashion",
+      "price": 89.99,
+      "originalPrice": 129.99,
+      "rating": 4.3,
+      "reviews": 72,
+      "stock": 18,
+      "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&h=500&fit=crop",
+      "description": "Elegant leather crossbody bag with vintage design. Perfect for everyday use with multiple compartments for organization.",
+      "specs": [
+        "Genuine Leather",
+        "Vintage Design",
+        "Multiple Compartments",
+        "Adjustable Strap",
+        "Gold Hardware",
+        "Durable Lining"
+      ],
+      "instagramReels": []
+    },
+    {
+      "id": "6",
+      "name": "Nike Running Shoes Pro",
+      "category": "fashion",
+      "price": 119.99,
+      "originalPrice": 169.99,
+      "rating": 4.6,
+      "reviews": 342,
+      "stock": 55,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop",
+      "description": "High-performance running shoes with advanced cushioning technology. Designed for comfort and speed in every stride.",
+      "specs": [
+        "Nike Cushioning Tech",
+        "Lightweight Design",
+        "Breathable Mesh",
+        "Durable Rubber Sole",
+        "True to Size Fit",
+        "Multiple Colors Available"
+      ],
+      "instagramReels": [
+        "https://www.instagram.com/p/DDDDDDDD/embed"
+      ]
+    }
+  ]
+}
