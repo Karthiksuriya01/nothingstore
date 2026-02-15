@@ -125,7 +125,7 @@ export default function ProductDetailPage() {
         .delay-4 { animation-delay: 0.4s; }
       `}</style>
 
-      <div className="w-full bg-background min-h-screen pb-40">
+      <div className="w-full bg-background min-h-screen pb-24">
         {/* Header */}
         <div className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur-sm border-b border-border/30">
           <div className="flex items-center justify-between px-4 py-3 h-14">
@@ -257,60 +257,87 @@ export default function ProductDetailPage() {
               <p className="text-xs text-red-500">{priceError}</p>
             </div>
           )}
+
+          {/* Instagram Reels - Horizontal Carousel */}
+          {product.instagramReels && product.instagramReels.length > 0 && (
+            <div className="animate-in fade-in space-y-3 pb-4">
+              <h3 className="text-xs font-bold text-muted-foreground uppercase tracking-wider">Check It Out</h3>
+              <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
+                {product.instagramReels.map((reelUrl, index) => (
+                  <div
+                    key={index}
+                    className="flex-shrink-0 w-48 h-80 bg-secondary rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow"
+                  >
+                    <iframe
+                      src={reelUrl}
+                      width="100%"
+                      height="100%"
+                      frameBorder="0"
+                      scrolling="no"
+                      allowFullScreen={true}
+                      className="w-full h-full"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
 
-      {/* Fixed Bottom Bar */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 w-full bg-gradient-to-t from-background via-background/95 to-transparent pt-4 pb-4 px-4">
-        {/* Total Price Display */}
-        <div className="text-center mb-3">
-          <p className="text-xs text-muted-foreground font-medium mb-1">TOTAL PRICE</p>
-          <p className="text-3xl font-bold text-primary">${(product.price * quantity).toFixed(2)}</p>
-        </div>
+      {/* Fixed Bottom Bar - HORIZONTAL LAYOUT */}
+      <div className="fixed bottom-0 left-0 right-0 z-40 w-full bg-gradient-to-t from-background via-background/98 to-transparent px-4 py-3 border-t border-border/30">
+        <div className="flex items-center justify-between gap-3">
+          {/* Quantity Selector - LEFT */}
+          <div className="flex items-center gap-2 bg-secondary/40 border border-border/30 rounded-full px-2.5 py-1.5">
+            <button
+              onClick={() => setQuantity(Math.max(1, quantity - 1))}
+              disabled={quantity <= 1}
+              className="p-1 disabled:opacity-40 active:scale-90 transition-transform rounded-full hover:bg-secondary/40"
+            >
+              <Minus size={18} />
+            </button>
+            <span className="text-sm font-bold w-4 text-center">{quantity}</span>
+            <button
+              onClick={() => setQuantity(quantity + 1)}
+              className="p-1 text-primary active:scale-90 transition-transform rounded-full hover:bg-primary/10"
+            >
+              <Plus size={18} />
+            </button>
+          </div>
 
-        {/* Quantity Selector */}
-        <div className="flex items-center justify-center gap-4 bg-secondary/60 backdrop-blur-sm rounded-full py-2.5 px-4 w-fit mx-auto mb-3 shadow-md border border-border/20">
-          <button
-            onClick={() => setQuantity(Math.max(1, quantity - 1))}
-            disabled={quantity <= 1}
-            className="p-1.5 disabled:opacity-40 active:scale-90 transition-transform"
-          >
-            <Minus size={20} />
-          </button>
-          <span className="text-lg font-bold w-6 text-center">{quantity}</span>
-          <button
-            onClick={() => setQuantity(quantity + 1)}
-            className="p-1.5 text-primary active:scale-90 transition-transform"
-          >
-            <Plus size={20} />
-          </button>
-        </div>
+          {/* Total Price - CENTER */}
+          <div className="flex-1 text-center">
+            <p className="text-xs text-muted-foreground mb-0.5">TOTAL</p>
+            <p className="text-xl font-bold text-primary">${(product.price * quantity).toFixed(2)}</p>
+          </div>
 
-        {/* Add to Cart Button */}
-        <Button
-          onClick={handleAddToCart}
-          className={cn(
-            'w-full h-14 font-bold text-base rounded-xl',
-            'transition-all duration-300 active:scale-95',
-            'shadow-lg hover:shadow-xl',
-            'flex items-center justify-center gap-2',
-            addedToCart
-              ? 'bg-green-500 hover:bg-green-500 text-white'
-              : 'bg-primary hover:bg-primary/90 text-primary-foreground'
-          )}
-        >
-          {addedToCart ? (
-            <>
-              <Check size={20} className="scale-in" />
-              <span>Added to Cart!</span>
-            </>
-          ) : (
-            <>
-              <ShoppingCart size={20} />
-              <span>Add to Cart</span>
-            </>
-          )}
-        </Button>
+          {/* Add to Cart Button - RIGHT */}
+          <Button
+            onClick={handleAddToCart}
+            className={cn(
+              'px-6 h-12 font-bold text-sm rounded-lg',
+              'transition-all duration-300 active:scale-95',
+              'shadow-md hover:shadow-lg',
+              'flex items-center justify-center gap-1.5 flex-shrink-0',
+              addedToCart
+                ? 'bg-green-500 hover:bg-green-500 text-white'
+                : 'bg-primary hover:bg-primary/90 text-primary-foreground'
+            )}
+          >
+            {addedToCart ? (
+              <>
+                <Check size={18} />
+                <span>Done</span>
+              </>
+            ) : (
+              <>
+                <ShoppingCart size={18} />
+                <span>Buy</span>
+              </>
+            )}
+          </Button>
+        </div>
       </div>
     </>
   );
